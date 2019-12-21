@@ -1,0 +1,13 @@
+{
+	"author": "GalaxHD551",
+	"version": "1.0",
+	"server_scripts": [
+		"animation.lua"
+	],
+	"client_scripts": [
+		
+	],
+	"files": [
+		
+	]
+}
