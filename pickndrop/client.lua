@@ -3,9 +3,3 @@ AddEvent("OnKeyPress", function(key)
         CallRemoteEvent("DropGun")        
     end
 end)
-
-AddEvent("OnKeyPress", function(key)
-    if key == "E" and not onSpawn and not onCharacterCreation then
-        CallRemoteEvent("Pick")
-    end
-end)
