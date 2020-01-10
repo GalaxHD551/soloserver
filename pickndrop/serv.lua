@@ -40,7 +40,6 @@ function OnPlayerPickupHit(playerid, pickupid)
             local ammodrop = GetPickupPropertyValue(pickupid, "ammodrop")
 
             DestroyPickup(pickupid)
-            GetPickupPropertyValue(pickupid, "gundrop")
 
             SetPlayerWeapon(playerid, gundrop, ammodrop, true, slotequiped, false)
             SetPlayerAnimation(playerid, "PICKUP_LOWER")
