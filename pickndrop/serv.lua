@@ -1,6 +1,6 @@
 AddRemoteEvent("DropGun", function(playerid, pickupid)
     local slotequiped = GetPlayerEquippedWeaponSlot(playerid)
-    gun, ammo = GetPlayerWeapon(playerid, slotequiped)
+    local gun, ammo = GetPlayerWeapon(playerid, slotequiped)
     --AddPlayerChat(playerid,"SLOT"..slotequiped)
     --AddPlayerChat(playerid,"gun"..gun)
 
