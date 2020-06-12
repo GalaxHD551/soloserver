@@ -20,7 +20,7 @@ function cmd_e(player)
 	end
 end
 AddCommand("e", cmd_e)
-AddCommand("explosive", cmd_e)
+AddCommand("explo", cmd_e)
 
 AddEvent("OnPlayerWeaponShot", function(player, weapon, hittype, hitid, hitX, hitY, hitZ)
     if GetPlayerPropertyValue(player, "Deletor") ~= nil and GetPlayerPropertyValue(player, "Deletor") then
