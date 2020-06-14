@@ -145,6 +145,26 @@ animID[142] = { name="PUSHUP_IDLE", id=142 };
 animID[143] = { name="PUSHUP_END", id=143 };
 animID[144] = { name="SLAP01", id=144 };
 animID[145] = { name="SLAP01_REACT", id=145 };
+animID[146] = { name="DANCE21", id=146 };
+animID[147] = { name="DANCE22", id=147 };
+animID[148] = { name="DANCE23", id=148 };
+animID[149] = { name="DANCE24", id=149 };
+animID[150] = { name="DANCE25", id=150 ;
+animID[151] = { name="DANCE26", id=151 };
+animID[152] = { name="DANCE27", id=152 };
+animID[153] = { name="DANCE28", id=153 };
+animID[154] = { name="DANCE29", id=154 };
+animID[155] = { name="DANCE30", id=155 };
+animID[156] = { name="DANCE31", id=156 };
+animID[157] = { name="DANCE32", id=157 };
+animID[158] = { name="DANCE33", id=158 };
+animID[159] = { name="DANCE34", id=159 };
+animID[160] = { name="DANCE35", id=160 };
+animID[161] = { name="DANCE36", id=161 };
+animID[162] = { name="DANCE37", id=162 };
+animID[163] = { name="DANCE38", id=163 };
+animID[164] = { name="DANCE39", id=164 };
+animID[165] = { name="DANCE40", id=165 };
 
 function cmd_a(playerid, index)
     if (index == nil) then
@@ -153,7 +173,7 @@ function cmd_a(playerid, index)
 
     index = tonumber(index)
 
-    if (index < 0 or index > 146) then
+    if (index < 0 or index > 165 then
         return AddPlayerChat(playerid, "Animation "..index.." does not exist.")
     end
 
