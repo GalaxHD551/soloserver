@@ -149,7 +149,7 @@ animID[146] = { name="DANCE21", id=146 };
 animID[147] = { name="DANCE22", id=147 };
 animID[148] = { name="DANCE23", id=148 };
 animID[149] = { name="DANCE24", id=149 };
-animID[150] = { name="DANCE25", id=150 ;
+animID[150] = { name="DANCE25", id=150 };
 animID[151] = { name="DANCE26", id=151 };
 animID[152] = { name="DANCE27", id=152 };
 animID[153] = { name="DANCE28", id=153 };
@@ -173,7 +173,7 @@ function cmd_a(playerid, index)
 
     index = tonumber(index)
 
-    if (index < 0 or index > 165 then
+    if index < 0 or index > 165 then
         return AddPlayerChat(playerid, "Animation "..index.." does not exist.")
     end
 
